@@ -1,8 +1,15 @@
 aid: arrcus
 name: Arrcus
-description: 'Arrcus is a company surfaced as a portfolio company of general-catalyst, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Arrcus is an AI-native networking software company that builds policy-driven
+  routing, switching, and AI fabric spanning the edge, datacenter, and cloud. Its flagship
+  ArcOS network operating system runs on merchant-silicon hardware and is complemented by
+  ArcRR (scale-out route reflector), ArcIQ (analytics and visibility), ACE / ACE-AI (the
+  Arrcus Connected Edge control and AI-networking platform), AINF (Arrcus Inference Network
+  Fabric), and the TGAX AI switch. Arrcus targets GPU cluster connectivity for AI training
+  and low-latency inferencing networks that reduce token cost. The company is venture backed
+  by General Catalyst and Lightspeed Venture Partners. It exposes a login-gated customer
+  portal and academy rather than a public developer API; no public OpenAPI, SDKs, or hosted
+  API surface were found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/arrcus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,32 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://avatars.githubusercontent.com/u/22456709?v=4
 tags:
 - Company
 - Enterprise
+- Networking
+- Network Operating System
+- Routing
+- Switching
+- Artificial Intelligence
+- AI Infrastructure
+- Edge Computing
+- Cloud
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +51,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arrcus-domain-security.yml
 - type: Website
   url: https://www.arrcus.com
+- type: GitHubOrganization
+  url: https://github.com/Arrcus
+- type: Portal
+  url: https://customerportal.arrcus.com/
+- type: Documentation
+  url: https://customerportal.arrcus.com/s/
+- type: Support
+  url: https://arrcus.com/support-overview
+- type: Blog
+  url: https://arrcus.com/blog
+- type: PrivacyPolicy
+  url: https://arrcus.com/privacy-policy
+- type: TermsOfService
+  url: https://arrcus.com/terms
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
