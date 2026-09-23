@@ -1,0 +1,29 @@
+# Front Door AI Index — arrcus — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: arrcus
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.arrcus.com
+  final_host: arrcus.com
+  ownership: own
+  owner: arrcus
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 34
+  host_score: 34
+  density: 36.09
+  words: 942
+  tiers:
+    agentic: 8
+    core: 26
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 26
+    inference: 7
+    agentic: 1
+    automation: 1
+    smart: 1
